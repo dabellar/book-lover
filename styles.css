@@ -1,0 +1,228 @@
+/* 
+    Name: Darleine Abellard
+    CS 132 SP 2024
+    Creative Project 3: Fetch and APIs
+    This is the layout style sheet for a virtual library. 
+    It includes both the main page and bookshelf sections of the website. 
+    Any colors are taken care of by the themed style sheets
+*/
+
+.hidden, #homepage.hidden, #genre-page.hidden, input.hidden {
+    display: none;
+}
+
+#homepage > section, #homepage article, #genre-page header > div, #bookcase, #genre-page {
+    display: flex;
+}
+
+body, #back-btn, input {
+    font-family: "Lora", serif;
+}
+
+body, #back-btn {
+    margin: 0px;
+}
+
+h1, .message-area {
+    font-family: "Ultra", serif;
+}
+
+h1 {
+    font-size: 38pt;
+}
+
+.message-area {
+    font-size: 18pt;
+    text-align: center;
+    margin: 0% 0% 3%;
+}
+
+/* homepage layout styles */
+#homepage header {
+    margin-top: 10px;
+}
+
+#homepage > section {
+    align-items: center;
+    padding: 2% 4% 4%;
+    justify-content: center;
+    margin: 0px;
+}
+
+#homepage div {
+    text-align: left;
+    width: 38%;
+    padding: 4%;
+    padding-left: 0px;
+}
+
+#homepage article {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 58%;
+    gap: 15px;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#homepage figure {
+    margin: 10px;
+    padding: 4%;
+    text-align: center;
+    width: 125px;
+    border-radius: 20px;
+}
+
+#homepage figure:hover {
+    background-color: white;
+    border: 2px white solid;
+    cursor: pointer;
+}
+
+#homepage figure:active {
+    background-color: #73e34a;
+    border: 2px #73e34a solid;
+    transform: translate(1px, 1px);
+}
+
+#homepage article img {
+    width: inherit;
+}
+
+
+/* genre page layout styles */
+#genre-page {
+    margin: 0px;
+    flex-direction: column;
+}
+
+#genre-page header {
+    margin: 0px;
+    padding: 20px;
+}
+
+#genre-page header > div {
+    border-radius: 100px;
+    justify-content: space-between;
+    padding: 10px 75px;
+}
+
+#genre-page header div button {
+    height: fit-content;
+    align-self: center;
+    border-radius: 25px;
+}
+
+#genre-page h1 {
+    font-size: 38pt;
+    margin: 10px;
+}
+
+#genre-page header div div {
+    /* for styling reasons */
+    width: 51.31px;
+}
+
+#genre-page input {
+    width: 100%;
+    max-width: 800px;
+    align-self: center;
+    margin-top: 1%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#genre-desc {
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+#back-btn:hover, #back-btn:active {
+    cursor: pointer;
+}
+
+#genre-page footer {
+    margin: 30px 0px 0px;
+    text-align: center;
+    font-size: 9pt;
+}
+
+#genre-page footer a:any-link {
+    font-weight: 900;
+}
+
+#genre-page footer p:nth-child(2) {
+    padding: 0% 15%;
+}
+
+
+/* bookcase and book cards layout */
+#bookcase {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px 10px;
+}
+
+#bookcase > p {
+    font-size: 20pt;
+    padding-top: 30px;
+}
+
+#bookcase figure {
+    position: relative;
+    margin: 30px 0px 0px;
+    border-radius: 8px;
+    width: 28%;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay p, .overlay p span {
+    font-size: 18pt;
+}
+
+.overlay p {
+    margin: 5px;
+}
+
+.overlay p span {
+    font-style: italic;
+}
+
+#bookcase figure:hover .overlay {
+    opacity: 1;
+}
+
+#bookcase figure img {
+    width: 100%;
+}
+
+/* 
+    No color palette for homepage
+    It should be plain to show off the different themes
+*/
+
+.homepage-mode #homepage article {
+    border: 4px black dotted;
+}
+
+.homepage-mode #homepage figure {
+    border: 2px black solid;
+}

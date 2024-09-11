@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- 
+    Name: Darleine Abellard
+    CS 132 SP 2024 
+    Creative Project 3: Fetch and APIs
+    This is the index.html for a virtual Library. It includes both the main page and
+    bookshelf sections of the website. 
+
+    DISCLAIMER: If there is an controversy or issue with an author and/or their book, I
+    am not condoning their actions by including them. I do not know all 
+    the authors or books included in this website.
+ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Library</title>
+    <!-- Source: "https://www.flaticon.com/free-icons/bookshelf, Created by Freepik - Flaticon -->
+    <link rel="shortcut icon" href="imgs/bookshelf-icon.png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ultra&display=swap" rel="stylesheet">
+    <!-- the style sheets for the different themes, but i think there might be a better way to do this -->
+    <link rel="stylesheet" href="aux-css/romance-styles.css">
+    <link rel="stylesheet" href="aux-css/classics-styles.css">
+    <link rel="stylesheet" href="aux-css/mys-thrill-styles.css">
+    <link rel="stylesheet" href="aux-css/fav-styles.css">
+    <link rel="stylesheet" href="aux-css/sci-fantasy-styles.css">
+    <link rel="stylesheet" href="aux-css/cyoa-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js"></script>
+    <script src="audiobook-playlist.js"></script>
+    <script defer src="virtual-bookshelf.js"></script>
+</head>
+<body class="homepage-mode">
+    <main>
+        <!-- landing page -->
+        <section id="homepage">
+            <section>
+                <div>
+                    <h1>Shhhhh! This is a virtual library.</h1>
+                    <p>
+                        Sometimes we need some help picking out a book to read. Luckily for you, 
+                        I have a solution! Choose a category, and see its most popular books (which are all
+                        available as audiobooks on Spotify). Happy reading! &colon;&rpar; 
+                    </p>
+                </div>
+                <article>
+                    <figure id="romance-card">
+                        <!-- Source: https://stock.adobe.com/images/neon-pink-heart-on-white-fur-valentine-s-day-background/499727510?prev_url=detail @Feotiktova / Adobe Stock -->
+                        <img src="imgs/neon-hearts-card.png" alt="Neon pink hearts on white fur">
+                        <figcaption> Romance Section</figcaption>
+                    </figure>
+                    <figure id="mys-thrill-card">
+                        <!-- Source: https://stock.adobe.com/images/3d-rendering-of-a-detective-desk-high-contrast-image/367253833?prev_url=detail @fergregory / Adobe Stock -->
+                        <img src="imgs/detective-desk-card.png" alt="Detective's desk">
+                        <figcaption>Mystery/Thriller Section</figcaption>
+                    </figure>
+                    <figure id="classics-card">
+                        <!-- Source: https://stock.adobe.com/images/vintagebooks-selective-focus/49713581?prev_url=detail @stevem / Adobe Stock -->
+                        <img src="imgs/old-books-card.png" alt="Stack of old books">
+                        <figcaption>Classics Section</figcaption>
+                    </figure>
+                    <figure id="fav-card">
+                        <!-- Source: Darleine Abellard -->
+                        <img src="imgs/cozy-corner-card.png" alt="Corner of Darleine's desk">
+                        <figcaption>Darleine's Library</figcaption>
+                    </figure>
+                    <figure id="sci-fantasy-card">
+                        <!-- Source: https://www.vecteezy.com/free-photos/3d -->
+                        <img src="imgs/sci-fantasy-card.png" alt="Alien City">
+                        <figcaption>Sci-Fi/Fantasy Section</figcaption>
+                    </figure>
+                    <figure id="cyoa-card">
+                        <!-- Source: https://stock.adobe.com/images/old-book-with-flying-letters-and-magic-light-on-bookshelf-background-in-library-ancient-books-as-a-symbol-of-knowledge-history-memory-conceptual-foundations-of-education-literary-themes/429762705?prev_url=detail @Tryfonov / Adobe Stock -->
+                        <img src="imgs/magical-book-card.png" alt="Magical Book">
+                        <figcaption>Choose Your Own Adventure</figcaption>
+                    </figure>
+                </article>
+            </section>
+        </section>
+        
+        <!-- template for each genre page -->
+        <section id="genre-page" class="hidden">
+            <header>
+                <p class="message-area"> <!-- ERROR MESSAGE HERE--> </p>
+                <div>
+                    <button id="back-btn">Back</button>
+                    <h1 id="genre-name"> <!-- GENRE NAME HERE--> </h1>
+                    <div> <!-- for design purposes, but there's probably a better way to do it --> </div>
+                </div>
+                <p id="genre-desc"> <!-- GENRE DESCRIPTION HERE --> </p>
+            </header>
+            <input class="hidden" id="cyoa-search" type="text" placeholder="Search..." />
+            <section id="bookcase"><!-- ADD BOOK CARDS HERE --></section>
+            <footer>
+                <p>
+                    Data from <a href="https://developer.spotify.com/documentation/web-api">Spotify</a>
+                    and <a href="https://openlibrary.org/developers/api">Open Library</a>.
+                </p>
+                <p>
+                   A Spotify Premium subscription is required to access the audiobooks. If Spotify Premium is 
+                   out of the question for you, try to your local library! Getting a library card gives you
+                   access to <a href="https://libbyapp.com/">Libby</a>,  an app where you can read or listen 
+                   to free books and magazines!
+                </p>
+                <p>Darleine Abellard &copy; 2024</p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
