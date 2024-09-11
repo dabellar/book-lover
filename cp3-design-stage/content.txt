@@ -1,0 +1,131 @@
+Revised Idea: have the recommendation sections
+on hover show info and rating
+
+* MAIN PAGE: *
+-----------------------------------------------------------------------------------------
+Shhhhh! This is a virtual library.
+
+Sometimes we need some help picking out a book to read. Luckily for you, I have a solution! 
+Choose a category, and see its most popular books (which are all available as audiobooks 
+on Spotify). Happy reading! :)
+
+
+* GENRE PAGES *
+Finding audiobook playlists was hard/I didn't like many of them, so I curated many of the 
+playlists for this project.
+-----------------------------------------------------------------------------------------
+Romance: Romance books been celebrated for their exploration of emotional connections 
+while also delivering engaging stories. Romance books (and things liked mostly by women 
+in general) get a bad rap, but I think people are looking at the genre wrong. Romance is 
+broad, and there are many subgenres, ranging from historical to sports. Each provide a 
+unique perspective on something that has been discussed since the beginning of time. As 
+long as there are people on this earth, there will be new ways to think about love. This 
+is a list of some of the most popular romance books. 
+
+    Red, White, and Royal Blue by Casey Mcquiston
+    Romancing Mr. Bridgerton by Juila Quinn
+    Funny Story by Emily Henry
+    How to End a Love Story by Yulin Kuang
+    Just for the Summer by Abby Jimenez
+    Pride and Prejudice by Jane Austen
+    A Court of Thorns and Roses by Sarah J. Maas
+    The Hating Game by Sally Thorne
+    The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid
+    The Song of Achilles by Madeline Miller
+    The Notebook by Nicholas Sparks
+    The Time Traveler's Wife by Audrey Niffenegger
+
+-----------------------------------------------------------------------------------------
+Classics: Classics are timeless works of literature that have had a profound impact on 
+our culture, enduring through generations due to their universal themes, compelling 
+characters, and masterful storytelling. However, the debate over what is considered a 
+"classic" is ongoing and multifaceted. My definition of a classic is a book that has stuck 
+with its readers and shaped how they read and view books as a whole. 
+This is a (non-comprehensive!) list of what I consider to be classics. Your list of classics 
+may be different, and that's amazing! Disagreements are the spice of life.
+
+    1984 by George Orwell
+    Little Women by Lousia May Alcott
+    The Outsiders by S.E. Hinton
+    Holes by Louis Sachar
+    Charlotte's Web by E.B. White
+    Flowers for Algernon by Daniel Keyes
+    Their Eyes Were Watching God by Zora Neale Hurston
+    I Know Why the Caged Bird Sings by Maya Angelou
+    The Great Gatsby by F. Scott Fitzgerald 
+    Little House on the Prairie by Laura Ingalls Wilder
+    The Little Prince by Antoine de Saint-Exupéry
+    Northanger Abbey by Jane Austen
+    The Color Purple by Alice Walker
+
+-----------------------------------------------------------------------------------------
+Mystery/Thriller: Mystery and Thriller books use suspense, intrigue, wit, and high-stakes 
+situations to captivate readers. These genres aim to keep readers on the edge of their seats,
+weaving complex plots filled with unexpected twists and turns with enticing characters and 
+beautiful scenes. Here are some of the most popular books in this genre!
+
+    The Girl with the Dragon Tattoo by Stieg Larsson
+    Gone Girl by Gillian Flynn
+    The Da Vinci Code by Dan Brown
+    Big Little Lies by Liane Moriarty
+    The Silent Patient by Alex Michaelides
+    In the Woods by Tana French
+    The Woman in the Window by A.J. Finn
+    Ace of Spades by Faridah Àbíké-Íyímídé
+    The Girl on the Train by Paula Hawkins
+    Before I Go to Sleep by S.J. Watson
+    Shutter Island by Dennis Lehane
+    The Hound of the Baskervilles by Arthur Conan Doyle
+    Rebecca by Daphne du Maurier
+    The Reversal by Michael Connelly
+    The No. 1 Ladies' Detective Agency by Alexander McCall Smith
+    We Were Liars by E. Lockhart
+
+-----------------------------------------------------------------------------------------
+My Recommended Books: Here are books I've read and loved for various reasons. As you can see, 
+I'm very into Black/Black-fem focused literature. However, the genres range from biographies to 
+sci-fi to thrillers. I was introduced to some of these through electives I've taken in high school 
+and college. Some of these were given to me by my english professor or recommended to me by
+a friend. I found one of these books just browsing free audiobooks my library provides!
+
+    Feel Free : Essays by Zadie Smith
+    The Anthropocene Reviewed: Essays on a Human-Centered Planet by John Green
+    Kindred by Octavia Butler
+    Krik? Krak! by Edwidge Danticat
+    Dawn by Octavia Butler
+    Girl, Woman, Other by Bernardine Evaristo
+    Lucy by Jamaica Kincaid
+    Binti by Nnedi Okorafor
+    An Unkindness of Ghosts by Rivers Solomon
+    The Other Black Girl by Zakiya Dalila Harris
+    I'm Glad My Mom Died by Jennette McCurdy
+    The Sun is Also a Star by Nicola Yoons
+    Giovanni's Room by James Baldwin
+
+-----------------------------------------------------------------------------------------
+Sci-fi/Fantasy: Science Fiction (Sci-fi) books are an interesting genre that explores the 
+possibilities of science and technology beyond the boundaries of our current reality. Fantasy 
+books transport readers into magical worlds filled with mythical creatures extraordinary 
+adventures that require an author to create an entire universe with their own rules,
+histories, and cultures. I know these are two different genres (sci-fi and fantasy fans don't 
+stone me please. I just wanted both genres to be represented), the amount of world-building, 
+imagination, and all around creativity required in writing and reading these books are comparable. 
+These books blend science, unrestricted imagination, and literature in a fun and engaging way. 
+These are some of the most popular books in both genres!
+
+    Use Spotify's Sci-fi/Fantasy Playlists and Recommendations
+
+-----------------------------------------------------------------------------------------
+Searching Functionality: What are you interested in reading? I've only offered five categories 
+to look through, which is not comprehensive at all. Simply search a topic and dive deep into 
+the options available (according to Open Library)! I'm not 100% sure that Spotify will have
+these available, but the beauty of books and modern technology is that there is definitely 
+a book out there for you and multiple different ways to read it. Happy searching!
+
+use Open Library Search API
+-----------------------------------------------------------------------------------------
+* FOOTER: *
+-----------------------------------------------------------------------------------------
+A Spotify Premium subscription is required to access the audiobooks. If Spotify Premium is 
+out of the question for you, try to your local library! Getting a library card gives you 
+access to Libby, an app where you can read or listen to free books and magazines!
