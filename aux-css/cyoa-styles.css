@@ -1,0 +1,73 @@
+/* 
+    Name: Darleine Abellard
+    CS 132 SP 2024
+    Creative Project 3: Fetch and APIs
+    This is the choose your own adventure (searching functionality)-themed 
+    style sheet for a virtual library. 
+    This only changes the colors of the site, not layout.
+*/
+
+/* 
+Color Palette:
+    #bf8c88 (peach)
+    #4b1c18 (umber)
+    #00344e (muted navy blue)
+    #74a0b2 (light blue)
+*/
+
+.cyoa-mode {
+    background-color: #bf8c88;
+}
+
+.cyoa-mode #homepage div, .cyoa-mode .message-area {
+    color: #00344e;
+}
+
+.cyoa-mode #homepage article {
+    background-color: #4b1c18;
+    border: 4px #4b1c18 dotted;
+    color: #00344e;
+}
+
+.cyoa-mode #homepage figure {
+    background-color: #74a0b2;
+    border: 2px #74a0b2 solid;
+}
+
+/* genre page styles */
+.cyoa-mode #back-btn {
+    border: 2px #4b1c18 solid;
+    color: #74a0b2;
+    background-color: #4b1c18;
+}
+
+.cyoa-mode #back-btn:hover, .cyoa-mode #back-btn:active, .cyoa-mode .overlay {
+    background-color: #623632;
+}
+
+.cyoa-mode #genre-page, .cyoa-mode #genre-page input, 
+.cyoa-mode #genre-page footer, .cyoa-mode #genre-page footer a:any-link {
+    color: #00344e;
+}
+
+.cyoa-mode #genre-page footer {
+    border-top: 2px #4b1c18 solid;
+}
+
+.cyoa-mode #genre-page header {
+    border-bottom: 2px #4b1c18 solid;
+}
+
+.cyoa-mode #genre-page header > div {
+    border: 2px #4b1c18 solid;
+}
+
+.cyoa-mode #genre-page input {
+    border-color: #4b1c18;
+}
+
+.cyoa-mode #bookcase figure {
+    color: #8bc7df;
+    border: 2px #4b1c18 solid;
+    box-shadow: 7px 6px 0 -2px #4b1c18, 7px 6px 20px 0 #fcecd3;
+}

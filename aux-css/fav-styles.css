@@ -1,0 +1,73 @@
+/* 
+    Name: Darleine Abellard
+    CS 132 SP 2024
+    Creative Project 3: Fetch and APIs
+    This is the favorites-themed style sheet for a virtual library. 
+    This only changes the colors of the site, not layout.
+*/
+
+/* 
+Color Palette:
+    #9288e0 (muted purple)
+    #270089 (dark purple)
+    #3a02c7 (bright purple)
+    #ca0cad (hot pink/magenta)
+    #b7f0da (light green)
+*/
+
+/* theme preview styles */
+.fav-mode {
+    background-color: #9288e0;
+}
+
+.fav-mode #homepage div, .fav-mode .message-area {
+    color: #270089;
+}
+
+.fav-mode #homepage article {
+    background-color: #3a02c7;
+    border: 4px #ca0cad dashed;
+    color: #270089;
+}
+
+.fav-mode #homepage figure {
+    background-color: #b7f0da;
+    border: 2px #b7f0da solid;
+}
+
+/* genre page styles */
+.fav-mode #back-btn {
+    border: 2px #270089 solid;
+    color: #b7f0da;
+    background-color: #270089;
+}
+
+.fav-mode #back-btn:hover, .fav-mode #back-btn:active, .fav-mode .overlay{
+    background-color: #3a2a96;
+}
+
+.fav-mode #genre-page {
+    color: #87e499;
+}
+
+.fav-mode #genre-page footer {
+    border-top: 2px #270089 solid;
+}
+
+.fav-mode #genre-page header, .fav-mode #genre-page footer, 
+.fav-mode #genre-page footer a:any-link {
+    color: #270089;
+}
+
+.fav-mode #genre-page header {
+    border-bottom: 2px #270089 solid;
+}
+
+.fav-mode #genre-page header > div {
+    border: 2px #270089 solid;
+}
+
+.fav-mode #bookcase figure {
+    border: 2px #270089 solid;
+    box-shadow: 7px 6px 0 -2px #270089, 7px 6px 20px 0 #ca0cad;
+}

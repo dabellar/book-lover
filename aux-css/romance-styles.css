@@ -1,0 +1,70 @@
+/* 
+    Name: Darleine Abellard
+    CS 132 SP 2024
+    Creative Project 3: Fetch and APIs
+    This is the romance-themed style sheet for a virtual library. 
+    This only changes the colors of the site, not layout.
+*/
+
+/* 
+Color Palette:
+    #74014f (magenta)
+    #f4a3df (baby pink)
+    #fdd0ef (extremely light pink/basically white)
+*/
+
+/* theme preview styles */
+.romance-mode {
+    background-color: #fdd0ef;
+}
+
+.romance-mode #homepage div, .romance-mode .message-area {
+    color: #74014f;
+}
+
+.romance-mode #homepage article {
+    background-color: #74014f;
+    border: 4px #74014f dotted;
+    color: #74014f;
+}
+
+.romance-mode #homepage figure {
+    background-color: #f4a3df;
+    border: 2px #f4a3df solid;
+}
+
+/* genre page styles */
+.romance-mode #back-btn {
+    border: 2px #74014f solid;
+    color: #f4a3df;
+    background-color: #74014f;
+}
+
+.romance-mode #back-btn:hover, .romance-mode #back-btn:active, .romance-mode .overlay {
+    background-color: #862c5f;
+}
+
+.romance-mode #genre-page, .romance-mode #genre-page footer a:any-link {
+    color: #74014f;
+}
+
+.romance-mode #genre-page footer {
+    border-top: 2px #74014f solid;
+}
+
+.romance-mode #genre-page header {
+    border-bottom: 2px #74014f solid;
+}
+
+.romance-mode #genre-page header > div {
+    border: 2px #74014f solid;
+}
+
+.romance-mode #bookcase figure {
+    border: 2px #74014f solid;
+    box-shadow: 7px 6px 0 -2px #74014f, 7px 6px 20px 0 #c93e93;
+}
+
+.romance-mode .overlay {
+    color: #f4a3df;
+}
