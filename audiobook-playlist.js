@@ -222,12 +222,12 @@ class AudiobookPlaylist {
         let name = "Wizards, Warps, and Wormholes";
         let description = `Science Fiction (Sci-fi) books are an interesting genre that explores the 
                 possibilities of science and technology beyond the boundaries of our current reality. Fantasy 
-                books transport readers into magical worlds filled with mythical creatures extraordinary 
-                adventures that require an author to create an entire universe with their own rules,
+                books transport readers into magical worlds filled with mythical creatures and take them 
+                on extraordinary adventures that require an author to create an entire universe with their own rules,
                 histories, and cultures. I know these are two different genres (sci-fi and fantasy fans don't 
-                stone me please. I just wanted both genres to be represented), the amount of world-building, 
+                stone me please. I just wanted both genres to be represented), but the amount of world-building, 
                 imagination, and all around creativity required in writing and reading these books are comparable. 
-                These books blend science, unrestricted imagination, and literature in a fun and engaging way. 
+                They blend science, unrestricted imagination, and literature in a fun and engaging way. 
                 These are some of the most popular books in both genres!`;
         let books = [];
         books.push(["Frankenstein","Mary Shelley"]);
